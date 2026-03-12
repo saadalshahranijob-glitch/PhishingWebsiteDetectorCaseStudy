@@ -3,12 +3,6 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://your-app.streamlit.app](https://phishingwebsitedetectorcasestudy-gx7hbsgdtsgklztxiehef6.streamlit.app/))  
 
 This project provides an interactive dashboard to explore a phishing dataset and train a Random Forest classifier. The goal is to distinguish between legitimate and phishing websites based on URL and webpage characteristics.
-## 📁 Project Structure
-.
-├── app.py                 # Main Streamlit application
-├── phishing.csv           # Dataset
-├── requirements.txt       # Python dependencies
-└── README.md              # This file
 
 ## 📊 Dataset
 
