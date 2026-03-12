@@ -12,10 +12,10 @@ This project provides an interactive dashboard to explore a phishing dataset and
 
 ## 📊 Dataset
 
-The dataset (`phishing.csv`) contains **30 features** extracted from website URLs and page attributes, along with a binary target variable:
+The dataset (`phishing.csv`) contains **32 features** extracted from website URLs and page attributes, along with a binary target variable:
 
 - **`class`**:  
-  - `-1` → Legitimate (or possibly phishing? The dataset uses -1, 0, 1; we interpret -1 as legitimate and 1 as phishing, with 0 as a third class? We'll assume -1: legit, 1: phishing).  
+  - `1` → Legitimate (or possibly phishing?) The dataset uses -1, 0, 1; we interpret 1 as legitimate and -1 as phishing, with 0 as a third class? We'll assume 1: legit, -1: phishing.  
   - The dataset has ~11,000 rows with no missing values.
 
 ### Features include:
@@ -78,9 +78,3 @@ After training, the app displays:
 
 The model and predictions are stored in **session state**, so you can switch between tabs without losing the trained model.
 
-## 🚀 Run Locally
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
